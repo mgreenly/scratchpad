@@ -32,8 +32,7 @@ resource "aws_dynamodb_table" "tf_dynamo_table" {
 }
 
 #
-#   creates the following OU structure, where root, workload, test and prod are OUs and
-#   the accouts are; example and test
+#   creates the following ou/account structure
 #
 #   root
 #    |
